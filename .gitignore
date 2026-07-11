@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# OS generated
+.DS_Store
+
+# Log files
+watcher.err
+watcher.log
+
+# Private Data
+# ※個人情報である家計簿データ（data/）やレシート画像（receipts/）をGitHubにアップロードしないようにするための設定です。
+# プライベートリポジトリとして家計簿データも含めてGitHubでバックアップ管理したい場合は、
+# 以下の `data/` や `receipts/` をコメントアウト（または削除）してください。
+# (ただし、絶対にパブリックリポジトリにしないでください)
+data/
+receipts/
+.env
+

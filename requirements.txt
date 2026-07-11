@@ -1,0 +1,7 @@
+google-genai
+pydantic
+pillow
+pillow-heif
+watchdog
+python-dotenv
+
